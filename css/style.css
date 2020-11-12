@@ -1,0 +1,786 @@
+/*Google Font Link*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Global CSS Start*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2{
+	font-family: 'Alfa Slab One', cursive;
+}
+h3,h4,h5,h6,li,button{
+	font-family: 'Bebas Neue', cursive;
+}
+
+p,span,input{
+	font-family: 'Montserrat', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+/*Header Section Start*/
+
+.header{
+	background: url(../img/banner.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 670px;
+}
+.header .menu{
+	padding-top: 20px;
+}
+.header .menu .navbar{
+
+}
+.header .menu .navbar{
+
+}
+.navbar ul li{
+
+}
+.navbar ul li a{
+
+	margin-left: 20px;
+
+	letter-spacing: 2px;
+}
+.nav-item{
+
+}
+.nav-link{
+
+}
+
+/*Header Section End*/
+
+/*Banner Section CSS Start*/
+
+
+.banner{
+
+margin: 110px 0;
+}
+.banner .top-title{
+
+}
+.banner .top-title h3{
+	font-size: 18px;
+    color: #3d2514;
+    display: inline-block;
+    border: 2px dashed #3d2514;
+    padding: 8px;
+}
+.banner .main-title{
+	
+}
+.banner .main-title h1{
+	font-size: 87px;
+	color: #3d2514;
+	text-shadow: 4px 4px #fee8bb;
+}
+.banner .bottom-title{
+	
+}
+.banner .bottom-title h2{
+	font-size: 43px;
+	color: #3d2514;
+	text-shadow: 3px 3px #fee8bb;
+}
+.banner .explore{
+
+}
+.banner .explore button{
+	width: 150px;
+	border: 3px solid #bf2222;
+	background: #bf2222;
+	color: white;
+	padding: 10px;
+	margin-top: 30px;
+	font-weight: 700;
+	font-size: 15px;
+	border-radius: 5px;
+	transition: 0.5s ease-in-out;
+}
+
+.banner .explore button:hover{
+  background: #ffc045;
+  border: 3px solid #3d2514;
+  color: #3d2514;
+  transition: 0.5s ease-in-out;
+  border-radius: 5px;
+}
+/*Banner Section CSS End*/
+
+/*Blogs Section CSS Start*/
+
+
+.blogs{
+
+margin: 50px 0;
+}
+.blogs .blog-left{
+	position: relative;
+}
+.left-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.6);
+	display: none;
+}
+.blogs .blog-left img{
+	
+width: 100%;
+}
+.blogs .blog-left .post-title1{
+	position: absolute;
+	top: 25px;
+	left: 25px;
+}
+.blogs .blog-left .post-title1 h4{
+	
+	color: white;
+		
+	font-size: 22px;
+}
+.blogs .blog-left .post-title1 h3{
+	color: white;
+	font-size: 38px;
+}
+
+
+
+
+.blogs .blog-right{
+	position: relative;
+}
+.blogs .blog-right img{
+	
+width: 100%;
+}
+.blogs .blog-right .post-title2{
+	position: absolute;
+	top: 25px;
+	left: 25px;
+}
+.blogs .blog-right .post-title2 h4{
+	
+color: white;
+	
+font-size: 22px;
+}
+.blogs .blog-right .post-title2 h3{
+	color: white;
+	font-size: 35px;
+	line-height: 1;
+}
+
+
+.blogs .blog-right{
+	position: relative;
+	margin-bottom: 15px;
+}
+.blogs .blog-right img{
+	
+width: 100%;
+}
+.blogs .blog-right .post-title3{
+	position: absolute;
+	top: 25px;
+	left: 25px;
+}
+.blogs .blog-right .post-title3 h4{
+	
+	color: white;
+		
+	font-size: 22px;
+}
+.blogs .blog-right .post-title3 h3{
+	color: white;
+	font-size: 35px;
+
+}
+
+.blog-button {
+	text-align: center;
+}
+.blog-button button{
+	background: #ffc045;
+	color: #3d2514;
+	padding: 10px;
+	margin-top: 30px;
+	font-weight: 700;
+	font-size: 15px;
+	border-radius: 0;
+	transition: 0.5s ease-in-out
+}
+
+.blog-button button:hover{
+  background: #bf2222;
+  color: white;
+  transition: 0.5s ease-in-out
+}
+/*Blogs Section CSS End*/
+
+/*Order Now Section CSS Start*/
+
+.order-now{
+	width: 100%;
+	margin: 50px 0;
+	text-align: center;
+}
+.order-now .order-title{
+	
+}
+
+.order-now .order-title h2{
+	font-size: 43px;
+	color: #3d2514;
+	margin: 20px 0;
+}
+.order-now .order-title p{
+	color: #3d2514;
+}
+
+.product{
+
+}
+.product .burger{
+	
+}
+.product .burger img{
+	width: 100%;
+	height: auto;
+}
+.product h3{
+	color: #3d2514;
+	font-size: 35px;
+}
+.product p{
+	color: #3d2514;
+}
+.product .ordernow-button{
+	
+}
+.product .ordernow-button button{
+	
+	background: #bf2222;
+		
+	border: none;
+		
+	color: white;
+		
+	font-weight: 700;
+		
+	border-radius: 0;
+		
+	padding: 10px 40px;
+		
+	margin: 10px 0;
+	transition: 0.5s ease-in-out;
+}
+.product .ordernow-button button:hover{
+	background: #ffc045;
+	color: #3d2514;
+	transition: 0.5s ease-in-out;
+}
+
+/*Order Now Section CSS End*/
+
+
+/*Event Section CSS Start*/
+
+
+.event{padding: 50px 0;}
+.event .event-body{
+	transition: 0.3s ease-in-out;
+}
+.event .event-body:hover{
+	box-shadow: 6px 5px 10px 0px rgba(0,0,0,0.6);
+	transition: 0.3s ease-in-out;
+}
+	
+.event .event-body .event-text{
+    padding: 50px 40px;
+}
+.event .event-body .event-text h3{
+	color: #3d2514;
+	font-size: 25px;
+}
+.event .event-body .event-text h2{
+	font-size: 35px;
+	color: #3d2514;
+}
+.event .event-body .event-text p{
+	color: #3d2514;
+	padding: 20px 0;
+}
+.event .event-body .event-img{}
+.event .event-body .event-img img{}
+
+
+.owl-theme .owl-nav {
+    display: none;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav:focus {
+	outline: none;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ffc045;
+}
+/*Event Section CSS End*/
+
+
+/*Contact Section CSS Start*/
+
+.contact{
+	width: 100%;
+	height: auto;
+	background: url(../img/contact-img.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 40px 0;
+}
+.contact .contact-title{
+
+padding: 30px;
+}
+.contact .contact-title h3{
+	color: #3d2514;
+	font-size: 25px;
+}
+.contact .contact-title h2{
+	font-size: 35px;
+	color: #3d2514;
+}
+.contact .contact-form{
+
+padding: 0 25%;
+}
+.contact .contact-form input{
+	
+margin: 10px 10px;
+	
+padding: 8px 30px;
+	
+width: 240px;
+	
+height: 42px;
+}
+.contact form .date{
+	
+width: 240px;
+}
+.contact form .btnsubmit{
+    background: #bf2222;
+    height: 42px;
+    width: 240px;
+    color: white;
+    border: none;
+    font-weight: 900;
+    font-size: 18px;
+    transition: 0.5s ease-in-out;
+}
+.contact form .btnsubmit:hover{
+	background: #ffc045;
+	color: #3d2514;
+	transition: 0.5s ease-in-out;
+}
+
+
+/*Contact Section CSS End*/
+
+
+/*Footer Section CSS Start*/
+
+
+.footer{
+	width: 100%;
+	background: url(../img/footer-img.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+.footer .left-footer{
+
+padding: 60px 0px 0px 0;
+}
+.footer .left-footer img{
+
+height: 70px;
+}
+.footer .left-footer p{
+
+margin: 65px 0;
+}
+.footer .left-footer .restriction{
+
+font-weight: 600;
+}
+.footer .left-footer .restriction p{
+
+}
+
+.footer .right-footer{
+
+}
+
+.footer .right-footer .location-info{
+	
+padding: 130px;
+}
+.footer .right-footer .location-info .contact-adress{
+	
+}
+.footer .right-footer .location-info .contact-adress i{
+	
+font-size: 25px;
+	
+padding: 0 10px;
+}
+.footer .right-footer .location-info .contact-adress p{
+	
+}
+.footer .right-footer .location-info .contact-email{
+	
+margin-top: 5px;
+}
+.footer .right-footer .location-info .contact-email i{
+	
+font-size: 20px;
+	
+padding: 0 10px;
+}
+.footer .right-footer .location-info .contact-email p{
+	
+}
+
+.footer .right-footer .social-media{
+
+text-align: right;
+}
+.footer .right-footer .social-media ul li{
+	display: inline-block;
+	padding-left: 0px;
+	list-style: none;
+}
+.footer .right-footer .social-media .circle a{
+	text-decoration: none;
+}
+
+/*Footer Section CSS End*/
+.footer .right-footer .social-media ul li a i{
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	background: white;
+	color: black;
+	font-size: 20px;
+	line-height: 35px;
+	text-align: center;
+	margin-left: 15px;
+	transition: 0.3s ease-in-out;
+}
+.footer .right-footer .social-media ul li a i:hover{
+	transition: 0.3s ease-in-out;
+	transform: scale(1.2);
+}
+
+
+
+				/*Media Query*/
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 992px) and (max-width: 1280px) {
+  
+ .event .event-body .event-text {
+    padding: 0px 30px;
+}
+	.owl-theme .owl-dots, .owl-theme .owl-nav {
+    left: 25px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  
+	.header {
+    	height: 530px;
+	}
+	.banner {
+    	margin: 40px 0;
+	}
+	.banner .main-title h1 {
+    font-size: 60px;
+	}
+	.banner .bottom-title h2 {
+    	font-size: 40px;
+	}
+	.order-now .order-title h2 {
+    font-size: 38px;
+	}
+	.product .burger img {
+     width: 100%; 
+     height: auto; 
+}
+	.blogs .blog-left {
+	    margin-top: 5px;
+	}
+	.left-overlay{
+		/*position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(0,0,0,0.6);*/
+		display: block;
+	}
+	.blogs .blog-left .post-title1 h4 {
+	    font-size: 18px;
+	}
+	.blogs .blog-left .post-title1 h3 {
+	    font-size: 27px;
+	}
+	.blogs .blog-right .post-title3 {
+	    top: 20px;
+	}
+	.blogs .blog-right .post-title3 h4 {
+    	font-size: 18px;
+	}
+	.blogs .blog-right .post-title3 h3 {
+    	font-size: 27px;
+	}
+	.blogs .blog-right .post-title2 h3 {
+	    font-size: 27px;
+	    line-height: 0.9;
+	}
+	.product {
+	    margin-top: 20px;
+	}
+	.contact .contact-title {
+     padding: 0px; 
+}
+.contact {
+    height: auto;
+    padding: 40px;
+}
+.contact .contact-form {
+    padding: 0;
+}
+	.event .event-body .event-text {
+     padding: 0; 
+	}
+	.event .event-body .event-text h2 {
+    font-size: 27px;
+	}
+	.event .event-body .event-text p {
+    padding: 0 0 20px 0;
+	}
+	.owl-theme .owl-dots, .owl-theme .owl-nav {
+    left: 0;
+	}
+	.footer .right-footer .location-info {
+    padding: 150px 0 150px 70px;
+}
+.footer .right-footer .social-media {
+    text-align: center;
+}
+  
+}
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+  
+  .banner .main-title h1 {
+    font-size: 65px;
+}
+.banner .bottom-title h2 {
+    font-size: 35px;
+}
+.blogs .blog-right {
+    margin: 15px;
+}
+.product .burger img {
+    height: auto;
+}
+.event .event-body .event-text {
+    padding: 0;
+    text-align: center;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    left: 42%;
+}
+  .contact .contact-title {
+     padding: 0; 
+}
+.contact {
+    height: auto;
+    padding: 40px;
+}
+.footer .left-footer {
+    padding: 30px 0px 0px 0;
+}
+.footer .left-footer p {
+    margin: 30px 0;
+}
+.footer .right-footer .location-info {
+    padding: 0px;
+}
+.footer .right-footer .social-media {
+    text-align: center;
+}
+
+
+}
+@media (min-width: 320px) and (max-width: 575px) {
+
+.banner {
+    margin: 50px 0;
+}
+.banner .top-title h3 {
+    font-size: 16px;
+}
+.banner .main-title h1 {
+    font-size: 50px;
+}
+.banner .bottom-title h2 {
+    font-size: 32px;
+}
+.blogs .blog-left .post-title1 h3 {
+    font-size: 25px;
+    /* line-height: 0.5; */
+}
+.blogs .blog-left .post-title1 {
+    top: 10px;
+    left: 15px;
+}
+.blogs .blog-right .post-title2 h3 {
+    font-size: 25px;
+}
+.blogs .blog-right .post-title2 h4 {
+    font-size: 17px;
+}
+.blogs .blog-right .post-title2 {
+    top: 10px;
+    left: 15px;
+}
+.blogs .blog-right .post-title3 {
+    top: 10px;
+    left: 15px;
+}
+.blogs .blog-right .post-title3 h4 {
+    font-size: 17px;
+}
+.blogs .blog-right .post-title3 h3 {
+    font-size: 25px;
+}
+.blogs .blog-right {
+    margin: 15px 15px 0 15px;
+}
+.order-now .order-title h2 {
+    font-size: 30px;
+}
+.blogs .blog-right {
+    margin: 15px;
+}
+.product .burger img {
+    height: auto;
+}
+.event .event-body .event-text {
+    padding: 0;
+    text-align: center;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    left: 42%;
+}
+  .contact .contact-title {
+     padding: 0; 
+}
+.event {
+     padding: 0; 
+}
+.event .event-body .event-text h2 {
+    font-size: 24px;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    left: 38%;
+}
+.contact {
+    padding: 20px 0;
+}
+.contact .contact-form {
+     padding: 0; 
+}
+.contact .contact-title h2 {
+    font-size: 20px;
+}
+.contact {
+    height: auto;
+    padding: 40px 0;
+}
+.footer .left-footer {
+    padding: 30px 0px 0px 0;
+}
+.footer .left-footer p {
+    margin: 30px 0;
+}
+.footer .right-footer .location-info {
+    padding: 0px;
+}
+.footer .right-footer .social-media {
+    text-align: center;
+}
+.footer .left-footer img {
+    height: 50px;
+}
+.contact .contact-title h3 {
+    font-size: 20px;
+}
+
+
+
+
+
+
+}
